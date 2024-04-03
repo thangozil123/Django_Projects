@@ -51,11 +51,13 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .btn{
-	border-radius: 0;
+	margin-left: 6px;
+	border-radius: 16px;
 }
 
 .row-image{
 	width: 100px;
+	height: 100%;
 }
 
 .form-field{
@@ -110,7 +112,11 @@ h1,h2,h3,h4,h5,h6{
 	&:hover {background: lighten(#111, 13%);}
 }
 
-#btnstyle{
+.btnstyle{
     margin-left: 17%;
     border-radius: 50%;
   }
+
+
+
+  
